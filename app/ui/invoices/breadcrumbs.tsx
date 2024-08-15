@@ -8,6 +8,7 @@ interface Breadcrumb {
   active?: boolean;
 }
 
+// breadcrubs is the path toward this page 
 export default function Breadcrumbs({
   breadcrumbs,
 }: {
